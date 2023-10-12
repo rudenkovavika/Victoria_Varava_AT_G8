@@ -1,4 +1,4 @@
-package homework.day2.basetask;
+package homework.day2.basetask.stringTask;
 
 public class TrainMethodsString {
 

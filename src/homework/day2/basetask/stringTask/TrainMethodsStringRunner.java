@@ -1,4 +1,6 @@
-package homework.day2.basetask;
+package homework.day2.basetask.stringTask;
+
+import homework.day2.basetask.stringTask.TrainMethodsString;
 
 public class TrainMethodsStringRunner {
     public static void main(String[] args) {
