@@ -12,7 +12,5 @@ public class TrainMethodsObjectsRunner {
         trainMethodsObjects.processPineapple(new Pineapple("fresh", 0.111));
 
 
-
-
     }
 }

@@ -4,7 +4,7 @@ public class Bee {
     private String gender;
     private long weight;
 
-    public Bee (String gender, long weight) {
+    public Bee(String gender, long weight) {
         this.gender = gender;
         this.weight = weight;
     }

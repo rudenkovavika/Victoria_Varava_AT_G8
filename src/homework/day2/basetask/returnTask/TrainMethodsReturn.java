@@ -10,7 +10,7 @@ public class TrainMethodsReturn {
     }
 
     public static char returnNewChar(char a) {
-        return a; //как вывести строку из двух таких же символов
+        return a; //как вывести строку из двух таких же символов???
     }
 
     public static float returnNewFloat(float a) {
