@@ -11,4 +11,11 @@ public class Rocket extends Aircraft {
         String str = String.format("I am %s, my name is %s and I amd flying to %s", this.getClass().getSimpleName(), this.getName(), direction);
         System.out.println(str);
     }
+
+    @Override
+    public int move(int pointA, int pointB) {
+        String str = String.format("I am %s my name is %s and I am moving from point %d to point %d", this.getClass().getSimpleName(), this.getName(), pointA, pointB);
+        System.out.println(str);
+        return pointB - pointA;
+    }
 }
