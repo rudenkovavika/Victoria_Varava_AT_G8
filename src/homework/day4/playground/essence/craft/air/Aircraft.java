@@ -19,4 +19,11 @@ public abstract class Aircraft extends Matter implements Flyable, Transportable 
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public void fly(String direction) {
+        String str = String.format("I am %s, my name is %s and I amd flying to %s", this.getClass().getSimpleName(), this.getName(), direction);
+        System.out.println(str);
+    }
+
 }

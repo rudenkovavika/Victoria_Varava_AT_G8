@@ -19,6 +19,7 @@ public abstract class Animal extends Matter {
     }
 
     public void eat(Plant food) {
-        System.out.println(String.format("I am %s and I am eating %s"), this.name, food.getName());
+        String str = String.format("I am %s and I am eating %s", this.name, food.getName());
+        System.out.println(str);
     }
 }
