@@ -15,7 +15,7 @@ public class Motorbike extends Vehicle {
 
     @Override
     public void drive(String direction){
-        String str = String.format("I am %s my name is %s and I am moving from point %d to point %s", this.getClass().getSimpleName(), this.getName(), direction);
+        String str = String.format("I am %s, my name is %s and I amd driving to %s", this.getClass().getSimpleName(), this.getName(), direction);
         System.out.println(str);
     }
 }

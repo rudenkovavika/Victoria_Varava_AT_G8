@@ -42,7 +42,7 @@ public class RideableProcessorRunner {
         rideableProcessor.runRideable(anonymousVehicle);
         rideableProcessor.runRideable(anonymousRideable);
 
-        rideableProcessor.runRideable(vehicleMoped, "nowhere");
-        rideableProcessor.runRideable(vehicleMotorbike, "everywhere");
+        rideableProcessor.runRideable(vehicleMoped, "никуда");
+        rideableProcessor.runRideable(vehicleMotorbike, "повсюду");
     }
 }
