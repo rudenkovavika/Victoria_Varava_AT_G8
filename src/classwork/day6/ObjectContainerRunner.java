@@ -1,4 +1,4 @@
-package classwork.day1;
+package classwork.day6;
 
 public class ObjectContainerRunner {
     public static void main(String[] args) {
